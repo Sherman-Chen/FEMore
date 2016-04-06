@@ -16,14 +16,14 @@ alt：本属性是img特有的，用于当图片不可用的时候，显示出�
 
 ##5、对web语义化有什么看法？
 web语义化是指页面代码所蕴含的信息，HTML标签和CSS命名都可以进行语义化。
-*有利于搜索引擎理解页面
-*便于盲人阅读
+* 有利于搜索引擎理解页面
+* 便于盲人阅读
 如果语义化标签数量大量增长的话（假设），势必会对相关内容进行细化，由此可能造成开发人员在编写代码时会混淆相关标签。
 
 ##display: none与visibility: hidden的区别
 相同：都让元素不可见
 不同：
-*display:none，在dom tree与cssom tree合成的layout tree的时候，元素不会被合成到该树上的，所以在布局的时候，不会占空间。
-*visibility:hidden：会在layout tree中，所以会占空间，只是内容不可见。
-*更改display属性通常会造成内容reflow，而visibility则只会repaint
-*display:none的子节点也会从layout tree树中消失，而visibility还可以设置子节点可见。
+* display:none，在dom tree与cssom tree合成的layout tree的时候，元素不会被合成到该树上的，所以在布局的时候，不会占空间。
+* visibility:hidden：会在layout tree中，所以会占空间，只是内容不可见。
+* 更改display属性通常会造成内容reflow，而visibility则只会repaint
+* display:none的子节点也会从layout tree树中消失，而visibility还可以设置子节点可见。
